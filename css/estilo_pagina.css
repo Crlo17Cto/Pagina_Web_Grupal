@@ -1,11 +1,23 @@
-#catalogo {
-    background-color: #fff;
-}
 #destacados {
     background-color: #f7f7f7;
     display: flex; 
-    justify-content: space-around; /* distribuir elementos de manera uniforme */
-    flex-wrap: wrap; /* para que si se acaba el espacio pase a la siguiente fila */
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+#masVendidos {
+    background-color: #9ffff9;
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.producto {
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 26px;
+    padding: 8px; /* Márgenes internos */
 }
 
 .imagen {
