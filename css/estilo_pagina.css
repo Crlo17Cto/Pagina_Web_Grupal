@@ -1,0 +1,16 @@
+#catalogo {
+    background-color: #fff;
+}
+#destacados {
+    background-color: #f7f7f7;
+    display: flex; 
+    justify-content: space-around; /* distribuir elementos de manera uniforme */
+    flex-wrap: wrap; /* para que si se acaba el espacio pase a la siguiente fila */
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
