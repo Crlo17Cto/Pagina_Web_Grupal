@@ -18,7 +18,7 @@
 
 }
 
-/*-----------------------------*/
+/*------------------------------*/
 
 #superDeportivas {
     background-color: #f1a44575;
@@ -46,3 +46,41 @@
 }
 
 /*------------------------------*/
+
+#cruiser {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*------------------------------*/
+
+#contacto {
+    background-color: #f0cfa775;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration-color: #000000;
+}
+
+/*------------------------------*/
+
+/* Estilos para el encabezado */
+
+#inicio {
+    display: flex;
+    align-items: center;
+    /* Alinea los elementos verticalmente al centro */
+    justify-content: space-between;
+    /* Distribuye los elementos horizontalmente */
+    padding: 10px;
+}
+
+.logo-izquierdo,
+.logo-derecho {
+    height: 80px;
+    /* Ajusta la altura según tus necesidades */
+    width: auto;
+    border-radius: 50%;
+}

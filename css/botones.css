@@ -1,0 +1,37 @@
+/* añadir boton flotante*/
+.boton {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    /*fixed para que el boton acompañe al momento de bajar el cursor*/
+    bottom: 0px;
+    right: 0px;
+    background-image: url('https://scontent.feoh1-1.fna.fbcdn.net/v/t39.30808-1/278921650_110288598326802_1117214225929916356_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=q280sPjzEO4AX8fkZ0W&_nc_ht=scontent.feoh1-1.fna&oh=00_AfCaFQbO_Dq_d7E7UHya02iYOcBs_VGw528th-UUDDKaYg&oe=65F6D4DE');
+    background-size: cover;
+    /* configurar tamañao de imagen */
+}
+
+/*opacidad del boton flotante*/
+.boton:hover {
+    opacity: 0.4;
+}
+
+/*--------------------------*/
+
+.botonInicio {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    /*fixed para que el boton acompañe al momento de bajar el cursor*/
+    bottom: 0px;
+    left: 0px;
+    background-color: #000000;
+}
+
+.botonInicio:hover {
+    opacity: 0.6;
+}
