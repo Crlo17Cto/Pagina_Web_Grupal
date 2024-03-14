@@ -1,0 +1,27 @@
+.catalogos {
+    position: relative;
+    display: inline-block;
+}
+
+.catalogos-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.catalogos-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.catalogos-content a:hover {
+    background-color: #555;
+}
+
+.catalogos:hover .catalogos-content {
+    display: block;
+}

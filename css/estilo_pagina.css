@@ -1,23 +1,10 @@
-#destacados {
-    background-color: #f7f7f7;
-    display: flex; 
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-}
-
-#masVendidos {
-    background-color: #9ffff9;
-    display: flex; 
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-}
-
 .producto {
     width: 250px;
     border: 1px solid #000;
     border-radius: 16px;
     margin: 26px;
-    padding: 8px; /* Márgenes internos */
+    padding: 8px;
+    /* Márgenes internos */
 }
 
 .imagen {
@@ -26,3 +13,30 @@
     display: block;
     margin: 0 auto;
 }
+
+/*DE AQUI*/
+.producto .descripcion {
+    display: none;
+}
+
+.producto:hover {
+    border-color: #cf0e0e;
+}
+
+.producto:hover .descripcion {
+    display: block;
+    color: #1e1717;
+}
+
+/*HASTA AQUI; ES PARA AÑADIR LA DESCRIPCION DEL PRODUCTO PERO OCULTAMENTE,
+HASTA QUE PASE EL CURSOR*/
+
+/*------------------------------*/
+
+.espacioCatalogo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+/*------------------------------*/

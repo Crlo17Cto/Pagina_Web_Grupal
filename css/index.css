@@ -16,6 +16,12 @@ h1 {
 
 h2 {
     color: #333; 
+    font-size: 45px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: "Permanent Marker", cursive;
 }
 
 nav ul {

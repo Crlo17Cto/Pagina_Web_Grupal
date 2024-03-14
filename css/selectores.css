@@ -1,0 +1,48 @@
+/*------------------------------*/
+#destacados {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los elementos de manera uniforme */
+    flex-wrap: wrap;
+    /*Permite que los elementos se envuelvan en filas adicionales si no hay suficiente espacio */
+}
+
+/*------------------------------*/
+
+#masVendidos {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/*-----------------------------*/
+
+#superDeportivas {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*------------------------------*/
+
+#enduro {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*------------------------------*/
+
+#scooters {
+    background-color: #f1a44575;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*------------------------------*/
